@@ -1,0 +1,16 @@
+div.bm {
+    background-color: rebeccapurple;
+    position: absolute;
+    top : 20px;
+    right: 40px;
+    padding: 1rem;
+    z-index: 99999;
+}
+
+#bm-url  {
+    width: 24rem;
+}
+
+#bm-title {
+    width: 24rem;
+}

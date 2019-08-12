@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rp bookmarket</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h3>Build a bookmarklet</h3>
+
+    <!--  -->
+    <!-- 'http://127.0.0.1:5500/bookmarklet.js' -->
+
+    <!-- <a href="javascript:(()=> {
+        _s = document.createElement('script');
+        _s.id = 'bm-script';
+        _s.src = 'http://127.0.0.1:5500/bookmarklet.js';
+        document.getElementsByTagName('head')[0].appendChild(_s);
+    })();">bookmarklet</a> -->
+    
+    <a href="javascript:(()=> {
+            _s = document.createElement('script');
+            _s.id = 'bm-script';
+            _s.src = `https://asna.com/filebin/marketing/article-figures/bookmarklet.js?${Math.random()}`;
+            document.getElementsByTagName('head')[0].appendChild(_s);
+        })();">bookmarklet</a>
+    
+    <script src="index.js"></script>
+</body>
+</html>
